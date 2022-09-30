@@ -6,6 +6,8 @@ import './Gyminfo.css'
 
 const Gyminfo = () => {
     const [gymData, setGymData] = useState([]);
+    const[calcu, setCalcu]=useState([]);
+
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -13,13 +15,15 @@ const Gyminfo = () => {
     }, [])
     const handleAddToC =(gym)=>{
         console.log(gym);
+        const newCalcu = [...calcu,gym]
+        setCalcu(newCalcu);
     }
 
     return (
         <div className='gym-container'>
             <div className='gym-items-container'>
                 <div className='logo-part'>
-                    <img src={logo} alt="logo" /> <h3>Fitness Logo</h3>
+                    <img src={logo} alt="logo" /> <h3>Life Fitness</h3>
                 </div>
                 <h3>
                     <p>Select today`s exercise</p>
@@ -36,7 +40,7 @@ const Gyminfo = () => {
             </div>
             <div className="gym-calculate-container">
                 <Calculate></Calculate>
-            </div>
+                </div>
         </div>
     );
 };

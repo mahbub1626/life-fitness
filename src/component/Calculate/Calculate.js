@@ -16,11 +16,11 @@ const Calculate = () => {
             </div>
             <div className='profile-info'>
                 <div className='profole-info-part'>
-                    <h3>75kg</h3>
-                    <p>weight</p>
+                    <h3>23</h3>
+                    <p>age</p>
                 </div>
                 <div className='profole-info-part'>
-                    <h3>75kg</h3>
+                    <h3>50kg</h3>
                     <p>weight</p>
                 </div>
                 <div className='profole-info-part'>
@@ -43,7 +43,7 @@ const Calculate = () => {
                 <h2>Excercise Details</h2>
                 <div>
                     <div>
-                        <p> Excersice Time  <span>0</span></p>
+                        <p> Excersice Time <span>0</span></p>
                     </div>
                     <div>
                     <p> Excersice Breack Time  <span>0</span></p> 

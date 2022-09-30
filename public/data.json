@@ -1,62 +1,62 @@
 [
     {
-      "id": "6335c53b9681429a2cc15765",
+      "id": "1",
       "index": 0,
       "balance": "$3,709.07",
       "img": "https://i.ibb.co/PzTXZVS/dambell.jpg",
       "age": "28-26",
-      "name": "Weeks Giles",
-      "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "name": "Dumbbell ",
+      "text": "Can be held in hands while walking to boost calorie-burning.",
       "time": "37s"
     },
     {
-      "id": "6335c53b59254ec2af23ae43",
+      "id": "2",
       "index": 1,
       "balance": "$3,021.73",
       "img": "https://i.ibb.co/PzTXZVS/dambell.jpg",
       "age": "26-24",
       "name": "Marlene Kline",
-      "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "time": "23s"
     },
     {
-      "id": "6335c53bee72dd85e8411411",
+      "id": "3",
       "index": 2,
       "balance": "$2,276.80",
       "img": "https://i.ibb.co/PzTXZVS/dambell.jpg",
       "age": "24-21",
       "name": "Mamie Small",
-      "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "time": "34s"
     },
     {
-      "id": "6335c53b267324bfaa301cb4",
+      "id": "4",
       "index": 3,
       "balance": "$3,786.87",
       "img": "https://i.ibb.co/PzTXZVS/dambell.jpg",
       "age": "38-20",
       "name": "Tommie Battle",
-      "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "time": "10s"
     },
     {
-      "id": "6335c53b84ca5343698694ff",
+      "id": "5",
       "index": 4,
       "balance": "$1,229.95",
       "img": "https://i.ibb.co/PzTXZVS/dambell.jpg",
       "age": "29-20",
       "name": "Barber Marsh",
-      "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "time": "25s"
     },
     {
-      "id": "6335c53b5a0465c011c716c5",
+      "id": "6",
       "index": 5,
       "balance": "$1,272.10",
       "img": "https://i.ibb.co/PzTXZVS/dambell.jpg",
       "age": "22-37",
       "name": "Garner Boyer",
-      "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "time": "27s"
     }
   ]

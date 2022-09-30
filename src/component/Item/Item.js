@@ -3,13 +3,13 @@ import './Item.css'
 
 const Item = (props) => {
     // console.log(props)
-    const {img,name,about, age, time}=props.gym;
+    const {img,name,text, age, time}=props.gym;
     return (
         <div className='item'>
             <img src={img} alt="img" />
             <div className='item-text'>
             <h2>{name}</h2>
-            <p>{about}</p>
+            <p>{text}</p>
             <p>For Age: {age}</p>
             <p>Time required: {time}</p>
             </div>
