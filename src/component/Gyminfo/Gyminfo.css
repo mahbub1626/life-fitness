@@ -1,0 +1,12 @@
+.gym-container{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+    padding: 0 100px 0 100px;
+}
+.gym-item-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}

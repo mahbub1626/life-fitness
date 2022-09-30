@@ -1,0 +1,12 @@
+.item{
+    background-color: aqua;
+    width: 238px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+.item img {
+    width: 224px;
+    height: 115px;
+    padding: 7px;
+    border-radius: 10px;
+}
