@@ -39,13 +39,13 @@ const Calculate = () => {
                     <button>15s</button>
                 </div>
             </div>
-            <div>
-                <h2>Excercise Details</h2>
+            <div className='ex-details'>
+                <h3>Excercise Details</h3>
                 <div>
-                    <div>
+                    <div className='ex-details-part'>
                         <p> Excersice Time <span>0</span></p>
                     </div>
-                    <div>
+                    <div className='ex-details-part'>
                     <p> Excersice Breack Time  <span>0</span></p> 
                     </div>
                 </div>

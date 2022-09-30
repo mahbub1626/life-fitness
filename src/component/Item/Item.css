@@ -19,11 +19,15 @@
 
 .bnt-add-to-list {
     width: 100%;
-    background-color: rgb(5, 155, 255);
+    color: white;
+    background-color: rgb(5, 255, 134);
     border: none;
     padding: 10px;
     border-radius:0px 0px 10px 10px;
     position: absolute;
     bottom: 0;
     left: 0;
+}
+.bnt-add-to-list:hover{
+    background-color: rgb(63, 255, 5);
 }
