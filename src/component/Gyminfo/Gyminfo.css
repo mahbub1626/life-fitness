@@ -21,7 +21,6 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 50px;
-    border: 2px solid rgb(116, 218, 32);  
 }
 
 .gym-calculate-container{
@@ -39,7 +38,7 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 5px;
-        border: 2px solid rgb(116, 218, 32);  
+        /* border: 2px solid rgb(116, 218, 32);   */
     }
     
   }

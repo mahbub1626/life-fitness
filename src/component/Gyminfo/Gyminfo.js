@@ -11,6 +11,9 @@ const Gyminfo = () => {
             .then(res => res.json())
             .then(data => setGymData(data))
     }, [])
+    const handleAddToC =(gym)=>{
+        console.log(gym);
+    }
 
     return (
         <div className='gym-container'>
@@ -26,6 +29,7 @@ const Gyminfo = () => {
                         gymData.map(gym => <Item
                             key={gym.id}
                             gym={gym}
+                            handleAddToC={handleAddToC}
                         ></Item>)
                     }
                 </div>

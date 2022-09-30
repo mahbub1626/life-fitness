@@ -1,15 +1,29 @@
-.item{
+.item {
+    height: 380px;
     background-color: rgb(255, 255, 255);
     border: 2px solid orange;
-    border-radius: 5px;
-    /* position: relative; */
+    padding-left: 7px;
+    border-radius: 10px;
+    position: relative;
 }
+
 .item img {
     width: 95%;
-    
+
     padding: 7px;
     border-radius: 10px;
 }
-.bnt-add-to-list{
-    /* position: absolute; */
+.item-text{
+    margin-bottom: 10px;
+}
+
+.bnt-add-to-list {
+    width: 100%;
+    background-color: rgb(5, 155, 255);
+    border: none;
+    padding: 10px;
+    border-radius:0px 0px 10px 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }

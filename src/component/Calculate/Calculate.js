@@ -33,10 +33,10 @@ const Calculate = () => {
                 <h3>Add a Break</h3>
                 <div className='all-btn'>
                     <button>10s</button>
-                    <button>10s</button>
-                    <button>10s</button>
-                    <button>10s</button>
-                    <button>10s</button>
+                    <button>24s</button>
+                    <button>59s</button>
+                    <button>51s</button>
+                    <button>15s</button>
                 </div>
             </div>
             <div>
@@ -50,9 +50,9 @@ const Calculate = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className='btn-activity'>
                 <button>
-                    <p>Activity</p>
+                    <p>Activity Completed</p>
                 </button>
             </div>
         </div>
