@@ -13,7 +13,7 @@ const Item = (props) => {
             <p>For Age: {age}</p>
             <p>Time required: {time}</p>
             </div>
-            <button>
+            <button className='bnt-add-to-list'>
                 <p>Add to list</p>
             </button>
 

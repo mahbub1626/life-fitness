@@ -1,12 +1,63 @@
 .gym-container{
-    background-color: aliceblue;
+    background-color: rgb(229, 243, 254);
     display: grid;
-    grid-template-columns: 4fr 1fr;
-    gap: 10px;
+    grid-template-columns: 4fr 1.2fr;
+    gap: 50px;
     padding: 0 100px 0 100px;
+}
+.logo-part{
+    display: flex;
+    background-color: aqua;
+}
+.logo-part img{
+    width: 50px;
+    padding: 10px;
+}
+
+.gym-items-container{
+   
 }
 .gym-item-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 10px;
+    gap: 50px;
+    border: 2px solid rgb(116, 218, 32);  
 }
+
+.gym-calculate-container{
+    background-color: rgb(95, 255, 255);
+}
+
+@media only screen and (max-width: 768px) {
+    .gym-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+    padding: 0px;
+    }
+    .gym-item-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+        border: 2px solid rgb(116, 218, 32);  
+    }
+    
+  }
+
+  /* tablet */
+@media only screen and (min-width: 768px) and (max-width:992px){ 
+    body {
+      background-color: lightblue;
+    }
+    .gym-container{
+        gap: 2px;
+        padding: 2px;
+        }
+    .gym-item-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
+        border: 2px solid rgb(116, 218, 32);  
+    }
+   
+  }

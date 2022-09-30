@@ -1,0 +1,49 @@
+.caculate-part {
+
+    margin: 15px;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile-img img {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.profile-text {
+    margin-left: 15px;
+}
+
+.profile-text h4,
+p {
+    margin: 0;
+    padding: 0px;
+}
+
+.profile-info {
+    display: flex;
+
+}
+
+.profole-info-part {
+    margin:15px;
+}
+
+.profole-info-part h3,
+p {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+.all-btn{
+    background-color: azure;
+    margin:5px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.all-btn button{
+    padding: 10px;
+    border-radius: 15px;
+    margin:1px;
+}
