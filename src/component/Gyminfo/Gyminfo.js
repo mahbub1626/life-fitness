@@ -6,19 +6,16 @@ import './Gyminfo.css'
 
 const Gyminfo = () => {
     const [gymData, setGymData] = useState([]);
-    const[calcu, setCalcu]=useState([]);
+
+    const [cart, setCart] = useState([]);
 
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setGymData(data))
     }, [])
-    const handleAddToC =(gym)=>{
-        console.log(gym);
-        const newCalcu = [...calcu,gym]
-        setCalcu(newCalcu);
-    }
 
+    // console.log(cart);
     return (
         <div className='gym-container'>
             <div className='gym-items-container'>
@@ -33,14 +30,19 @@ const Gyminfo = () => {
                         gymData.map(gym => <Item
                             key={gym.id}
                             gym={gym}
-                            handleAddToC={handleAddToC}
+
+                            cart={cart}
+                            setCart={setCart}
                         ></Item>)
                     }
                 </div>
             </div>
             <div className="gym-calculate-container">
-                <Calculate></Calculate>
-                </div>
+                <Calculate
+                    cart={cart}
+                    setCart={setCart}
+                ></Calculate>
+            </div>
         </div>
     );
 };

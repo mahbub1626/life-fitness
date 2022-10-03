@@ -7,7 +7,7 @@
 }
 .logo-part{
     display: flex;
-    background-color: aqua;
+    background-color: #1E2B47;
 }
 .logo-part img{
     width: 50px;
@@ -24,7 +24,7 @@
 }
 
 .gym-calculate-container{
-    background-color: rgb(95, 255, 255);
+    background-color: #1E2B47;
 }
 
 @media only screen and (max-width: 768px) {

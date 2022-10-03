@@ -1,6 +1,6 @@
 .caculate-part {
-
     margin: 15px;
+    color: white;
 }
 
 .profile {
@@ -44,19 +44,27 @@ p {
 }
 .all-btn button{
     background-color: rgb(5, 155, 255);
-    padding: 10px;
+    padding: 12px;
     border: none;
-    border-radius: 15px;
+    border-radius: 50px;
     margin:2px;
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 14px;
 }
+.all-btn button:hover{
+    background-color: rgb(51, 173, 255);
+}
+.all-btn button:focus{
+    background-color:rgb(76, 0, 255);
+}
+
 .ex-details-part{
     background-color: azure;
     margin:5px;
     padding: 15px;
     border-radius: 10px;
+    color: rgb(15, 11, 11);
 }
 
 .btn-activity{

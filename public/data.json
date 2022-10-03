@@ -7,7 +7,7 @@
       "age": "28-26",
       "name": "Dumbbell ",
       "text": "Can be held in hands while walking to boost calorie-burning.",
-      "time": "37s"
+      "time": "37"
     },
     {
       "id": "2",
@@ -17,7 +17,7 @@
       "age": "26-24",
       "name": "Marlene Kline",
       "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      "time": "23s"
+      "time": "23"
     },
     {
       "id": "3",
@@ -27,7 +27,7 @@
       "age": "24-21",
       "name": "Mamie Small",
       "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      "time": "34s"
+      "time": "34"
     },
     {
       "id": "4",
@@ -37,7 +37,7 @@
       "age": "38-20",
       "name": "Tommie Battle",
       "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      "time": "10s"
+      "time": "10"
     },
     {
       "id": "5",
@@ -47,7 +47,7 @@
       "age": "29-20",
       "name": "Barber Marsh",
       "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      "time": "25s"
+      "time": "25"
     },
     {
       "id": "6",
@@ -57,6 +57,6 @@
       "age": "22-37",
       "name": "Garner Boyer",
       "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      "time": "27s"
+      "time": "27"
     }
   ]
