@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import profile from '../../imges/mahbub.jpg'
 import Toastify from '../Toastify/Toastify';
 import './Calculate.css'
@@ -20,6 +20,9 @@ const [time,setTime] = useState([])
         console.log(time);
         setTime(time)
     }
+    useEffect(()=> {
+        localStorage.setItem('second',JSON.stringify(time))
+    },[time])
 
     return (
         <div className='caculate-part'>
