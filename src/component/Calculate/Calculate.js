@@ -61,10 +61,10 @@ const [time,setTime] = useState([])
                 <h3>Excercise Details</h3>
                 <div>
                     <div className='ex-details-part'>
-                        <p> Excersice Time: <span>{sum}s</span></p>
+                        <p>Excersice Time: <span>{sum}s</span></p>
                     </div>
                     <div className='ex-details-part'>
-                        <p> Excersice Breack Time:  <span>{time}</span></p>
+                        <p>Breack Time:  <span>{time}</span></p>
                     </div>
                 </div>
             </div>
