@@ -1,0 +1,9 @@
+.blog-container{
+    background-color: rgb(229, 243, 254);
+    padding: 20px 100px 20px 100px;
+}
+.blog-container h3{
+    margin: 0;
+    padding: 10px 10px 10px 0px;
+    
+}
