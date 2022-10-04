@@ -21,7 +21,7 @@ const [time,setTime] = useState([])
         setTime(time)
     }
     useEffect(()=> {
-        localStorage.setItem('second',JSON.stringify(time))
+        localStorage.setItem('seconds',JSON.stringify(time))
     },[time])
 
     return (

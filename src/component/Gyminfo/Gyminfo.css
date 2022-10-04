@@ -23,9 +23,6 @@
     gap: 50px;
 }
 
-.gym-calculate-container {
-    /* background-color: #1E2B47; */
-}
 
 @media only screen and (max-width: 768px) {
     .gym-container {
@@ -41,7 +38,6 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 5px;
-        /* border: 2px solid rgb(116, 218, 32);   */
     }
 
 }

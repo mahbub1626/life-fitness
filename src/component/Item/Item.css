@@ -49,11 +49,5 @@
         border: 2px solid orange;
         padding: 7px;
     }
-    
-  }
 
-  /* tablet */
-@media only screen and (min-width: 768px) and (max-width:992px){ 
-    
-   
-  }
+}
