@@ -1,6 +1,8 @@
 .caculate-part {
-    margin: 15px;
     color: white;
+    background-color: #6aac00;
+    padding: 10px 10px 20px 10px;
+    border-radius: 0px 0px 10px 10px ;
 }
 
 .profile {
@@ -43,7 +45,7 @@ p {
     border-radius: 15px;
 }
 .all-btn button{
-    background-color: rgb(5, 155, 255);
+    background-color: #6fd600;
     padding: 12px;
     border: none;
     border-radius: 50px;
@@ -53,10 +55,12 @@ p {
     font-size: 14px;
 }
 .all-btn button:hover{
-    background-color: rgb(51, 173, 255);
+    background-color: #84ff00;
+    
 }
 .all-btn button:focus{
-    background-color:rgb(76, 0, 255);
+    background-color:rgb(197, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .ex-details-part{
@@ -70,16 +74,18 @@ p {
 .btn-activity{
     margin-top: 20px;
 }
-.btn-activity button{
-    width: 100%;
-    background-color: rgb(5, 155, 255);
-    padding: 10px 0px;
-    border: none;
-    border-radius: 10px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-}
-.btn-activity button:hover{
-    background-color:rgb(5, 255, 134);
-}
+
+@media only screen and (max-width: 768px) {
+    .profile,
+    .profile-info{
+        display: flex;
+        flex-direction: column;
+    } 
+    
+  }
+
+  /* tablet */
+@media only screen and (min-width: 768px) and (max-width:992px){ 
+    
+   
+  }

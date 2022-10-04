@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import profile from '../../imges/mahbub.jpg'
+import Toastify from '../Toastify/Toastify';
 import './Calculate.css'
 
 const Calculate = ({ cart }) => {
@@ -37,12 +38,12 @@ const [time,setTime] = useState([])
                     <p>age</p>
                 </div>
                 <div className='profole-info-part'>
-                    <h3>50kg</h3>
-                    <p>weight</p>
+                    <h3>2.5km</h3>
+                    <p>Run</p>
                 </div>
                 <div className='profole-info-part'>
-                    <h3>75kg</h3>
-                    <p>weight</p>
+                    <h3>good</h3>
+                    <p>helth</p>
                 </div>
 
             </div>
@@ -68,9 +69,7 @@ const [time,setTime] = useState([])
                 </div>
             </div>
             <div className='btn-activity'>
-                <button>
-                    <p>Activity Completed</p>
-                </button>
+                <Toastify></Toastify>
             </div>
         </div>
     );
